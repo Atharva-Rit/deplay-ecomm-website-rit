@@ -32,7 +32,7 @@ app.use("/register_brad", require("./routes/register_brad"));
 
 app.use("/products", require("./routes/products"));
 app.use("/order", require("./routes/order_routes"));
-app.use("/uploadImg", require("./routes/uploadRoutes"));
+// app.use("/uploadImg", require("./routes/uploadRoutes"));
 app.use("/imgFeature", require("./routes/imageFeatureRoutes"));
 
 //converting uploads to static & importing it here
